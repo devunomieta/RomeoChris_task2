@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard - PiggyVest</title>
+        <link rel="stylesheet" href="main.css">
+</head>
+<body>
+      <div class="logo" id="logo">
+        <img src="piggylogo.svg" alt="piggylogo" style="width:191px;height:36px;">
+      </div>
+      <div>
+      <form action="index.html" method="post">
+        <fieldset>
+          <legend>Create a Secure Account
+          <br>
+          <smallbr>Welcome to the future of Savings & Investments</smallbr>
+          </br>
+          </legend>
+          
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="user_name" placeholder="Full Name">
+          
+          <label for="mail">Email Address</label>
+          <input type="email" id="mail" name="user_email" placeholder="Email Address">
+          
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="user_phone" placeholder="Phone Number">
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password" placeholder="Password">
+          
+          <label for="referrer">Referrer Phone or Promo Code (Optional)</label>
+          <input type="text" id="referrer" name="user_referrer" placeholder="Referrer Phone or Code">
+
+        
+        <label for="channel">How Did You Hear About Us? (Optional)</label>
+        <select id="channel" name="user_channel">
+            <option value="Click_to_select">Click To Select</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Twitter">Twitter</option>
+            <option value="instagram">Instagram</option>
+            <option value="Friend/Family/Coworker_Referral">Friend/Family/Coworker Referral</option>
+            <option value="Google_Search">Google Search</option>
+            <option value="Google_Playstore">Google Playstore</option>
+            <option value="Online_blog">Online Blog</option>
+            <option value="Local_Newspaper">Local Newspaper</option>
+            <option value="At_an_event">At an event</option>
+            <option value="Other">Other</option>
+        </select>
+        <button type="submit">CREATE ACCOUNT</button>
+      </form>
+    </div>
+    <footer>
+      <p>Already have an account? <a href="#">Login In</a></p>
+    </footer>
+    </body>
+  
+</html>
